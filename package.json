@@ -1,6 +1,6 @@
 {
-  "name": "react-codemirror",
-  "version": "1.0.0",
+  "name": "medis-react-codemirror",
+  "version": "1.1.0",
   "description": "Codemirror",
   "main": "lib/Codemirror.js",
   "author": "Jed Watson",
@@ -24,13 +24,13 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "happiness": "^7.1.2",
-    "react": "^15.5.3",
+    "react": "^16.7.0",
     "react-component-gulp-tasks": "^0.7.7",
-    "react-dom": "^15.5.3"
+    "react-dom": "^16.7.0"
   },
   "peerDependencies": {
-    "react": ">=15.5 <16",
-    "react-dom": ">=15.5 <16"
+    "react": ">=15.5 <17",
+    "react-dom": ">=15.5 <17"
   },
   "browserify-shim": {
     "react": "global:React"
